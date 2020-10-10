@@ -1,0 +1,11 @@
+plugin:
+    name: 'trainn.frontend::lang.plugin.name'
+    description: 'trainn.frontend::lang.plugin.description'
+    author: trainn
+    icon: oc-icon-behance
+    homepage: ''
+navigation:
+    trainn-menu:
+        label: 'trainn.frontend::lang.plugin.name'
+        url: trainn/frontend/frontendcontroller
+        icon: icon-adn

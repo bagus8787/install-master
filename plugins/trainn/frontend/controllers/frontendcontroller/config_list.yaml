@@ -1,0 +1,12 @@
+list: $/trainn/frontend/models/frontend/columns.yaml
+modelClass: tRAINN\Frontend\Models\Frontend
+title: FrontendController
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'trainn/frontend/frontendcontroller/update/:id'

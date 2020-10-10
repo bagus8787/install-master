@@ -1,0 +1,10 @@
+name: FrontendController
+form: $/trainn/frontend/models/frontend/fields.yaml
+modelClass: tRAINN\Frontend\Models\Frontend
+defaultRedirect: trainn/frontend/frontendcontroller
+create:
+    redirect: 'trainn/frontend/frontendcontroller/update/:id'
+    redirectClose: trainn/frontend/frontendcontroller
+update:
+    redirect: trainn/frontend/frontendcontroller
+    redirectClose: trainn/frontend/frontendcontroller
