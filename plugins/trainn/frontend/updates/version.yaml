@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table trainn_frontend_landing'
+    - builder_table_create_trainn_frontend_landing.php

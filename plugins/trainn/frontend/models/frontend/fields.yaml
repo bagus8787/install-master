@@ -1,0 +1,48 @@
+fields:
+    title:
+        label: 'Content Title'
+        span: left
+        type: text
+    content_image:
+        label: 'Content Background Image'
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    type:
+        label: type
+        span: auto
+        type: text
+tabs:
+    fields:
+        content:
+            label: Content
+            size: large
+            span: full
+            placeholder: 'Hello World!'
+            type: richeditor
+            tab: 'trainn.frontend::lang.backend.tab.content'
+        subcontent:
+            label: 'Sub Content Title'
+            prompt: 'Add new sub content'
+            span: full
+            type: repeater
+            tab: Subcontent
+            form:
+                fields:
+                    image:
+                        label: 'Sub Content Image'
+                        mode: image
+                        imageWidth: '100'
+                        imageHeight: '100'
+                        span: full
+                        type: mediafinder
+                    description:
+                        label: 'Sub Content Description'
+                        span: full
+                        type: text
