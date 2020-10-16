@@ -92,4 +92,7 @@
   'RainLab\\Pages\\Classes\\Snippet' => 'plugins\\rainlab\\pages\\classes\\Snippet.php',
   'RainLab\\Pages\\Classes\\Controller' => 'plugins\\rainlab\\pages\\classes\\Controller.php',
   'RainLab\\Pages\\Classes\\Router' => 'plugins\\rainlab\\pages\\classes\\Router.php',
+  'bagus\\coba\\Plugin' => 'plugins\\bagus\\coba\\Plugin.php',
+  'bagus\\coba\\Controllers\\coba' => 'plugins\\bagus\\coba\\controllers\\coba.php',
+  'Bagus\\Coba\\Models\\Coba' => 'plugins\\bagus\\coba\\models\\Coba.php',
 );

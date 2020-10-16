@@ -11,11 +11,16 @@ columns:
         sortable: true
     created_at:
         label: created_at
-        type: datetime
+        type: date
         searchable: true
         sortable: true
     updated_at:
         label: updated_at
-        type: datetime
+        type: date
+        searchable: true
+        sortable: true
+    btn_name:
+        label: btn_name
+        type: text
         searchable: true
         sortable: true

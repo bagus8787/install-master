@@ -1,0 +1,9 @@
+fields:
+    nama:
+        label: nama
+        span: auto
+        type: text
+    keterangan:
+        label: keterangan
+        span: auto
+        type: text

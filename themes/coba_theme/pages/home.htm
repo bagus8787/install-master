@@ -1,0 +1,40 @@
+title = "Demonstration"
+url = "/"
+layout = "index"
+is_hidden = 0
+
+[frontend]
+==
+<div class="jumbotron">
+    <div class="container">
+        {% content "welcome.htm" %}
+    </div>
+</div>
+
+<div class="container">
+    
+    {{ dump(frontend.toArray()) }}
+    
+
+    <div class="page-header">
+        <h2>Overview <small>Basic concepts</small></h2>
+    </div>
+    <div class="text-center">
+        <p><a href="{{ 'ajax'|page }}" class="btn btn-lg btn-default">Continue to AJAX framework</a></p>
+    </div>
+    <div class="row">
+        {% for data in frontend %}
+        <h2> {{ data.title }} </h2>
+        <div class="col-md-4">
+            <img src="{{ data.content_image.path }}" alt style="width: 100px; height: 100px;"/>
+        </div>
+        
+        <p>Subcontent</p>
+        {% for sub in data.subcontent %}
+        {{ url('/')~sub.image | media }} <br>
+        <img src="{{ url('/')~sub.image | media }}" alt=""> <br>
+        {% endfor %}
+        {% endfor %}
+    </div>
+
+</div>

@@ -1,0 +1,10 @@
+name: Coba
+form: $/bagus/coba/models/coba/fields.yaml
+modelClass: Bagus\Coba\Models\Coba
+defaultRedirect: bagus/coba/coba
+create:
+    redirect: 'bagus/coba/coba/update/:id'
+    redirectClose: bagus/coba/coba
+update:
+    redirect: bagus/coba/coba
+    redirectClose: bagus/coba/coba

@@ -1,0 +1,12 @@
+list: $/bagus/coba/models/coba/columns.yaml
+modelClass: Bagus\Coba\Models\Coba
+title: Coba
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'bagus/coba/coba/update/:id'

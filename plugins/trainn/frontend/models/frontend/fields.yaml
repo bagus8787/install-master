@@ -18,6 +18,10 @@ fields:
         label: type
         span: auto
         type: text
+    btn_name:
+        label: button
+        span: auto
+        type: text
 tabs:
     fields:
         content:

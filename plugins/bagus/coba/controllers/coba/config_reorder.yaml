@@ -1,0 +1,4 @@
+title: Coba
+modelClass: Bagus\Coba\Models\Coba
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,6 @@
+plugin:
+    name: 'bagus.coba::lang.plugin.name'
+    description: 'bagus.coba::lang.plugin.description'
+    author: bagus
+    icon: oc-icon-adjust
+    homepage: ''

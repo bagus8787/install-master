@@ -3,3 +3,6 @@
 1.0.2:
     - 'Created table trainn_frontend_landing'
     - builder_table_create_trainn_frontend_landing.php
+1.0.3:
+    - 'Created table trainn_frontend_coba'
+    - builder_table_create_trainn_frontend_coba.php
